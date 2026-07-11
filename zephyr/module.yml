@@ -1,3 +1,4 @@
+name: zmk-keyboard-oregano
 build:
   settings:
     board_root: .
