@@ -4,12 +4,9 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "oregano-layouts.dtsi"
-
 / {
     chosen {
         zmk,kscan = &kscan0;
-        // zmk,matrix_transform = &default_transform;
         zmk,physical-layout = &physical_layout0;
     };
 
